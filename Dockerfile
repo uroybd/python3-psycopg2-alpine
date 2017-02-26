@@ -7,5 +7,5 @@ RUN apk update \
   && cd /usr/bin/ \
   && ln -s pydoc3 pydoc \
   && ln -s python3 python \
-  && rm get-pip.py \
+  && rm /get-pip.py \
   && apk del wget
