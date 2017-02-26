@@ -1,9 +1,0 @@
-FROM alpine:3.5
-
-COPY get-pip.py /get-pip.py
-RUN apk update \
-  && apk add python3 py3-psycopg2 \
-  && python3 get-pip.py \
-  && cd /usr/bin/ \
-  && ln -s pydoc3 pydoc \
-  && ln -s python3 python \
