@@ -1,7 +1,7 @@
 FROM alpine:3.5
 
 RUN apk update \
-  && apk add python3 py3-psycopg2 wget \
+  && apk  --no-cache add python3 py3-psycopg2 wget \
   && wget --no-check-certificate https://bootstrap.pypa.io/get-pip.py \
   && python3 get-pip.py \
   && cd /usr/bin/ \
