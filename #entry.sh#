@@ -1,8 +1,0 @@
-#!/bin/ash
-cmd = "$@"
-if [ "$1" == "pip" ]; then
-    shift
-    if [ "$1" == "install" ]; then
-	ash -c "pip install --user $@"
-    else
-	
