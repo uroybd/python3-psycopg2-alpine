@@ -6,8 +6,8 @@ You may want to install pillow here, use `apk update && apk add py3-pillow`.
 
 
 ## Versions and resepctive `Docerfile`:
-* `3.5`, `latest` with python 3.5.x and psycopg2 2.6.x ([Dockerfie](https://github.com/uroybd/python3-psycopg2-alpine/blob/master/3.5/Dockerfile))
-* `3.6`, `edge` with python 3.6.x and psycopg2 2.7.x ([Dockerfie](https://github.com/uroybd/python3-psycopg2-alpine/blob/master/3.6/Dockerfile))
+* `3.5`, `latest` with python 3.5.x and psycopg2 2.6.x ([Dockerfie](https://github.com/uroybd/python3-psycopg2-alpine/blob/master/Dockerfile))
+* `3.6`, `edge` with python 3.6.x and psycopg2 2.7.x ([Dockerfie](https://github.com/uroybd/python3-psycopg2-alpine/blob/3.6/Dockerfile))
 
 ### Why this Image?
 
