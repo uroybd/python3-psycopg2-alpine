@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine:3.6
 MAINTAINER Utsob Roy <uroybd@gmail.com>
 
 RUN apk update \
