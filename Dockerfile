@@ -12,3 +12,4 @@ RUN apk update \
   && ln -s python3 python \
   && rm /get-pip.py \
   && apk del wget \
+  && ln -s pip3 pip
