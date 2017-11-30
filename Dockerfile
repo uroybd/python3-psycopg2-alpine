@@ -1,6 +1,8 @@
 FROM alpine:3.5
 MAINTAINER Utsob Roy <uroybd@gmail.com>
 
+ENV PYTHONBUFFERED 1
+
 RUN apk update \
   && apk --no-cache add python3 \
      py3-psycopg2 \
