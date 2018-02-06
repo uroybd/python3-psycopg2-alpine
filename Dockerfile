@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine:3.7
 MAINTAINER Utsob Roy <uroybd@gmail.com>
 
 ENV PYTHONBUFFERED 1
